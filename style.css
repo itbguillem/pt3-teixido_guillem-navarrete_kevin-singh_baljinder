@@ -1,23 +1,94 @@
+html{
+  margin: -7.8px;
+  border: 0px;
+}
+
+#homelogo {
+  text-align: center;
+}
+
+#nav {
+  text-align: center;
+  margin: auto;
+}
+
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #111;
-  }
+  display: table;
+  margin: 0 auto;
+  list-style-type: none;
+  background-color: #ffffff;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.unactive:hover {
+  background-color: #d3bb8f;
+  border-radius: 3px;
+}
+
+.active {
+  background-color: #70614A;
+  color: white;
+  border-radius: 3px;
+}
+
+hr {
+  color: wheat;
+  opacity: 80%;
+}
+
+aside {
+  display: inline-block;
+  width: 30%;
+  float: left;
+  padding: 5px;
+  margin-left: 2%;
+}
+
+#sobremifoto {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%
+}
+
+.sobremidesc {
+  color: gray;
+  font-size: small;
+}
+
+#apuntame {
+
+}
+
+
+main {
+  display: inline-block;
+  width: 65%;
+  float: right;
+  padding: 5px;
+}
+
+.recipetitle {
+  text-align: center;
+  font-weight: 800;
+}
+
+.recipebar {
+
+}
+
+.recipedate {
+
+}
