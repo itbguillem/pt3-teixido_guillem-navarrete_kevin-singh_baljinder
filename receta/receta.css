@@ -68,9 +68,22 @@ html{
   }
 
   .rowreceta {
-
+    display: flex;
   }
 
   .receta {
-    
+    flex: auto;
+  }
+
+  .recetatitle {
+    color: white;
+
+  }
+
+  .recetadesc {
+    color: white;
+  }
+
+  .recetacreator {
+    color: white;
   }
