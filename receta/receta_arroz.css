@@ -38,6 +38,17 @@ html{
     margin: 0px;
   }
 
+  .unactive:hover {
+    background-color: #d3bb8f;
+    border-radius: 3px;
+  }
+  
+  .active {
+    background-color: #70614A;
+    color: white;
+    border-radius: 3px;
+  }
+  
   hr {
     color: wheat;
     opacity: 80%;
