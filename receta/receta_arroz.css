@@ -1,0 +1,55 @@
+html{
+    margin-left: 30px;
+    margin-right: 30px;
+    border: 0px;
+    background-color: #000000;
+  }
+  
+  #homelogo {
+    margin-left: 40%;
+    margin-right: 50%;
+  }
+  
+  .nav {
+    text-align: center;
+    margin: auto;
+  }
+  
+  ul {
+    display: table;
+    margin: 0 auto;
+    list-style-type: none;
+    background-color: #000000;
+    color: #ffffff;
+  }
+  
+  li {
+    float: left;
+    color: white;
+  }
+  
+   li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: small;
+    padding: 12px;
+    margin: 0px;
+  }
+
+  hr {
+    color: wheat;
+    opacity: 80%;
+  }
+
+  body {font-family:verdana;
+}
+
+  h1 {color:#999; font-size:20px;
+}
+
+  h2 {color: #999;; font-size:16px;
+} 
+  .ing {color:white; font-size:12px;
+}
