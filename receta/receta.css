@@ -60,7 +60,7 @@ html{
   }
 
   #recetas {
-
+    border-radius: 30%;
   }
 
   #categorias {
@@ -73,11 +73,11 @@ html{
 
   .receta {
     flex: auto;
+    margin: 10px;
   }
 
   .recetatitle {
     color: white;
-
   }
 
   .recetadesc {
@@ -86,4 +86,8 @@ html{
 
   .recetacreator {
     color: white;
+  }
+
+  .recetaimg {
+    margin-left: auto;
   }
